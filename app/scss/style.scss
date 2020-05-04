@@ -117,10 +117,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 165px;
 }
 .search__inner{
   text-align: center;
   padding-top: 166px;
+  position: relative;
   &-title{
     font-size: 60px;
     line-height: 70px;
@@ -156,6 +158,100 @@
       background-color: #fff;
       color: $btn;
     }
+  }
+  &-form{
+    background-color: #fff;
+    max-width: 1142px;
+    height: 136px;
+    position: absolute;
+    bottom: -154px;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+    padding-right: 10px;
+    padding-left: 10px;
+    z-index: 1;
+    form{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 40px;
+      position: relative;
+      // &::before{
+      //   content: "";
+      //   position: absolute;
+      //   border-radius: 6px;
+      //   opacity: 0.502;
+      //   width: 1110px;
+      //   height: 135px;
+      //   background-color: #fff;
+      // }
+      input{
+        max-width: 610px;
+        height: 55px;
+        width: 100%;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        border: none;
+        border: 1px solid #dcdcdc;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #676767;
+        &::placeholder{
+          color: #676767;
+        }
+      }
+      select{
+        height: 55px;
+        max-width: 195px;
+        width: 100%;
+        margin-right: 30px;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        border: 1px solid #dcdcdc;
+        border-left: none;
+        color: #676767;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      button{
+        height: 55px;
+        max-width: 223px;
+        width: 100%;
+        color: #fff;
+        background-color: $btn;
+        border: none;
+        border-radius: 3px;
+      }
+    }
+  }
+}
+.search__inner-form__wrapper{
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    border-radius: 6px;
+    opacity: 0.502;
+    max-width: 1110px;
+    height: 135px;
+    right: 0;
+    top: -13px;
+    left: 6px;
+    background-color: #fff;
+  }
+  &::after{
+    content: "";
+    border-radius: 6px;
+    background-color: #fff;
+    opacity: 0.502;
+    position: absolute;
+    max-width: 1080px;
+    height: 135px;
+    top: -26px;
+    left: 21px;
+    right: 0;
+    z-index: -1;
   }
 }
 // END SEARCH               
