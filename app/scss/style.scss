@@ -117,7 +117,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 165px;
+  margin-bottom: 190px;
 }
 .search__inner{
   text-align: center;
@@ -257,6 +257,39 @@
 // END SEARCH               
 // ===================================================
 
+// START ADVANTAGES               
+// ===================================================
+.advantages{
+  padding-bottom: 122px;
+}
+.advantages__items{
+  display: flex;
+  justify-content: space-between;
+}
+.advantages__item{
+  text-align: center;
+  max-width: 362px;
+  padding: 40px 35px;
+  transition: all .3s;
+  &-img{
+    width: 113px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  &-title{
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  &:hover{
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+  }
+}
+// END ADVANTAGES               
+// ===================================================
 
 
 @import 'media';
