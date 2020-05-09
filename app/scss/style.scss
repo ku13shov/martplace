@@ -104,6 +104,7 @@
       content: "\e900";
       font-family: 'icomoon';
       font-size: 15px;
+      color: #fff;
     }
   }
 }
@@ -289,6 +290,197 @@
   }
 }
 // END ADVANTAGES               
+// ===================================================
+
+// START PRODUCTS SLIDER               
+// ===================================================
+.products-slider{
+  background-color: $bg;
+}
+.products-slider__inner{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.products-slider__inner-title{
+  height: 110px;
+  max-width: 1140px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  border-radius: 4px; 
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 30px;
+  color: #000;
+  line-height: 40px;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+.products-slider__inner-box{
+  width: 110px;
+  height: 45px;
+  background-color: #7347c1;
+  border-radius: 25px;
+}
+.products-slider__item{
+  display: flex;
+  
+}
+.products-slider__items .slick-prev{
+  font-size: 0;
+  width: 10px;
+  height: 20px;
+  background: transparent;
+  background-image: url(../images/products-slider/left.svg);
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -115px;
+  right: 102px;
+  outline: none;
+  cursor: pointer;
+}
+.products-slider__items .slick-next{
+  font-size: 0;
+  width: 10px;
+  height: 20px;
+  background: transparent;
+  background-image: url(../images/products-slider/right.svg);
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -115px;
+  right: 55px;
+  outline: none;
+  cursor: pointer;
+}
+.products-slider__img{
+  max-width: 555px;
+  width: 100%;
+  min-height: 450px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.products-slider__info{
+  max-width: 585px;
+  background-color: #fff;
+  padding: 45px 62px 24px 50px;
+  position: relative;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  &::before{
+    content: "";
+    height: 1px;
+    max-width: 484px;
+    background-color: #ececec;
+    position: absolute;
+    left: 45px;
+    right: 0;
+    bottom: 80px;
+  }
+}
+.products-slider__info-title{
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.products-slider__info-user{
+  display: flex;
+  margin-bottom: 30px;
+}
+.info-user__img{
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+.info-user__name{
+  margin-right: 20px;
+  font-size: 15px;
+  color: #000;
+}
+.info-user__tool{
+  display: flex;
+  align-items: center;
+  &-img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  &-text{
+    font-size: 15px;
+    color: #7347c1;
+  }
+}
+.products-slider__text{
+  margin-bottom: 35px;
+}
+.products-slider__hashtags{
+  display: flex;
+}
+.products-slider__hashtag{
+  font-size: 15px;
+  color: #868c96;
+  padding-left: 17px;
+  padding-right: 17px;
+  height: 28px;
+  border-radius: 12px;
+  background-color: #f1f3f6;
+  text-align: center;
+  margin-bottom: 68px;
+  & + .products-slider__hashtag{
+    margin-left: 7px;
+  }
+}
+.products-slider__bottom-wrapper{
+  display: flex;
+  align-items: center;
+}
+.products-slider__bottom-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.products-slider__price{
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  background-color: $btn;
+  padding-right: 18px;
+  padding-left: 18px;
+  border-radius: 15px;
+  margin-right: 45px;
+}
+.products-slider__likes{
+  font-size: 15px;
+  margin-right: 43px;
+  position: relative;
+  font-family: 'Quicksand', sans-serif !important;
+  &::before{
+    color: #7347c1;
+    font-size: 15px;
+    right: 24px;
+    position: absolute;
+    font-family: 'icomoon';
+  }
+}
+.products-slider__cart{
+  font-size: 15px;
+  color: $btn;
+  position: relative;
+  font-family: 'Quicksand', sans-serif !important;
+  &::before{
+    color: $btn;
+    font-size: 15px;
+    right: 29px;
+    position: absolute;
+    font-family: 'icomoon';
+  }
+}
+// END PRODUCTS SLIDER               
 // ===================================================
 
 
