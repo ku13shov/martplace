@@ -17,4 +17,6 @@ $(function(){
 
   new WOW().init();
 
+  var mixer = mixitup('.products__inner');
+
 });
