@@ -20,7 +20,6 @@ $(function(){
     infinite: true,
     arrows: true,
     slidesToShow: 3,
-    
   });
 
   new WOW().init();

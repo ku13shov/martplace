@@ -707,9 +707,90 @@
   outline: none;
   cursor: pointer;
 }
+.feed__items .slick-list {
+  padding: 0px 1px 0 13px;
+}
 // END FEED            
 // ===================================================
 
+// START STAT            
+// ===================================================
+.stat{
+  background-color: #212225;
+  padding: 90px 0;
+}
+.stat__items{
+  display: flex;
+  justify-content: space-between;
+}
+.stat__item{
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  width: 150px;
+  .sale{
+    color: #feb71d;
+    position: relative;
+    &::before{
+      content: "\e90c";
+      position: absolute;
+      font-family: 'icomoon';
+      font-size: 48px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 5px;
+    }
+  }
+  .sales{
+    color: #58c9e9;
+    position: relative;
+    &::before{
+      content: "\e906";
+      position: absolute;
+      font-family: 'icomoon';
+      font-size: 48px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 5px;
+    }
+  }
+  .customers{
+    color: #77de51;
+    position: relative;
+    &::before{
+      content: "\e913";
+      position: absolute;
+      font-family: 'icomoon';
+      font-size: 48px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 5px;
+    }
+  }
+  .members{
+    color: #ff6a6d;
+    position: relative;
+    &::before{
+      content: "\e914";
+      position: absolute;
+      font-family: 'icomoon';
+      font-size: 48px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 5px;
+    }
+  }
+  &-num{
+    padding-top: 100px;
+  }
+  &-text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+  }
+}
+// END STAT            
+// ===================================================
 
 
 
