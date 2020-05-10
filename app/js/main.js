@@ -15,6 +15,14 @@ $(function(){
     arrows: true,
   });
 
+  $('.feed__items').slick({
+    dots: false,
+    infinite: true,
+    arrows: true,
+    slidesToShow: 3,
+    
+  });
+
   new WOW().init();
 
   var mixer = mixitup('.products__inner');

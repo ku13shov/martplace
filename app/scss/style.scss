@@ -664,6 +664,51 @@
 // END PRODUCTS             
 // ===================================================
 
+// START FEED             
+// ===================================================
+.feed{
+  padding: 120px 0;
+  background-color: #eff1f5;
+}
+.feed__box{
+  background-color: $btn;
+}
+.feed__items-inner{
+  display: flex;
+  justify-content: space-between;
+}
+.feed__items .slick-next {
+  font-size: 0;
+  width: 10px;
+  height: 20px;
+  background: transparent;
+  background-image: url(../images/products-slider/right.svg);
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -115px;
+  right: 55px;
+  outline: none;
+  cursor: pointer;
+}
+.feed__items .slick-prev {
+  font-size: 0;
+  width: 10px;
+  height: 20px;
+  background: transparent;
+  background-image: url(../images/products-slider/left.svg);
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -115px;
+  right: 102px;
+  outline: none;
+  cursor: pointer;
+}
+// END FEED            
+// ===================================================
 
 
 
