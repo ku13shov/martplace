@@ -841,5 +841,60 @@
 // END PROGRESS            
 // ===================================================
 
+// START SHOP          
+// ===================================================
+.shop__items{
+  display: flex;
+  text-align: center;
+}
+.shop__item{
+  max-width: 960px;
+  width: 100%;
+  min-height: 561px;
+  padding: 100px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &-img{
+    margin-bottom: 50px;
+  }
+  &-title{
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  &-text{
+    color: #fff;
+    max-width: 585px;
+    width: 100%;
+    margin: 0 auto 40px;
+
+  }
+  &-btn{
+    color: #fff;
+    width: 192px;
+    padding: 12px 0;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: all .3s;
+    
+    &:hover{
+      color: $btn;
+      background-color: #fff;
+    }
+    &-purple{
+      &:hover{
+        color: #7347c1;
+        background-color: #fff;
+      }
+    }
+  }
+}
+// END SHOP            
+// ===================================================
+
+
+
 
 @import 'media';

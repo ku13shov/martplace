@@ -28,6 +28,16 @@ body{
   margin: 0 auto;
   padding: 0 15px;
 }
+.container-fluide{
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+}
+@media (max-width: 720px){
+  .container-fluide{
+    padding: 0 15px;
+  }
+}
 .title{
   height: 110px;
   max-width: 1140px;
@@ -60,3 +70,6 @@ body{
     margin: 0 auto 56px;
   }
 }
+
+
+
