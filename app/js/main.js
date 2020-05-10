@@ -15,4 +15,6 @@ $(function(){
     arrows: true,
   });
 
+  new WOW().init();
+
 });

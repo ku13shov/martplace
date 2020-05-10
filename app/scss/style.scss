@@ -301,22 +301,6 @@
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.products-slider__inner-title{
-  height: 110px;
-  max-width: 1140px;
-  background-color: #fff;
-  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
-  border-radius: 4px; 
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-  font-size: 30px;
-  color: #000;
-  line-height: 40px;
-  justify-content: space-between;
-  padding-right: 30px;
-}
 .products-slider__inner-box{
   width: 110px;
   height: 45px;
@@ -482,6 +466,180 @@
 }
 // END PRODUCTS SLIDER               
 // ===================================================
+
+// START PRODUCTS              
+// ===================================================
+.products{
+  background-color: #f6f7fb;
+  padding: 120px 0;
+}
+.products__title{
+  margin-bottom: 30px;
+}
+.products__btn{
+  height: 92px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  box-shadow: 0px 1px 2px 0px rgba(90, 93, 100, 0.1);
+  margin-bottom: 50px;
+  button{
+    padding: 7px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f1f3f6;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #747b86;
+    & + button{
+      margin-left: 10px;
+    }
+  }
+}
+.products__inner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.products__item{
+  max-width: 361px;
+  width: 100%;
+  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 31px;
+  &-img{
+    max-width: 361px;
+    min-height: 260px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    &:hover .products__item-hover{
+    transform: translateY(0);
+    }
+  }
+  &-wrapper{
+    padding: 30px;
+  }
+  &-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+}
+.products__item-title{
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.products__item-bottom__box{
+  height: 62px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ececec;
+  justify-content: space-between;
+}
+.products__item-price{
+  background-color: #e6f1fd;
+  font-size: 15px;
+  font-weight: 500;
+  color: $btn;
+  padding: 1px 15px;
+  border-radius: 15px;
+}
+.products__item-likes{
+  font-size: 15px;
+  color: #6f7d8d;
+  position: relative;
+  &::before{
+    position: absolute;
+    content: "\e905";
+    font-size: 15px;
+    font-family: 'icomoon';
+    right: 27px;
+    color: #7f4ec2;
+  }
+}
+.products__item-cart{
+  font-size: 15px;
+  color: $btn;
+  position: relative;
+  &::before{
+    position: absolute;
+    content: "\e904";
+    font-size: 15px;
+    font-family: 'icomoon';
+    right: 27px;
+    color: $btn;
+    top: -1px;
+  }
+}
+.products__item-hover{
+  position: absolute;
+  transform: translateY(-150%);
+  transition: all .5s;
+}
+.products__item-hover__wrapper{
+  position: relative;
+  max-width: 361px;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  transition: all .6s;
+  &:hover .item-hover__btn-more{
+    left: 40px;
+  }
+  &:hover .item-hover__btn-demo{
+    right: 40px;
+  }
+  img{
+    max-width: 361px;
+    width: 100%;
+    height: 260px;
+  }
+  a{
+    position: absolute;
+    display: block;   
+    color: #fff; 
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 0;
+    width: 130px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s;
+    &:hover{
+      color: $btn;
+      background-color: #fff;
+    }
+  }
+}
+.item-hover__btn-more{
+  left: -400px;
+}
+.item-hover__btn-demo{
+  right: -400px;
+}
+.products__item-img__inner{
+  
+}
+// END PRODUCTS             
+// ===================================================
+
+
+
 
 
 @import 'media';
