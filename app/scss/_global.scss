@@ -44,3 +44,19 @@ body{
   justify-content: space-between;
   padding-right: 30px;
 }
+.title__box{
+  text-align: center;
+  &-title{
+    font-size: 36px;
+    line-height: 40px;
+    color: #000;
+    margin-bottom: 20px;
+    span{
+      color: $btn;
+    }
+  }
+  &-text{
+    max-width: 685px;
+    margin: 0 auto 56px;
+  }
+}
