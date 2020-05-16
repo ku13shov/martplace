@@ -1045,6 +1045,36 @@
 // END NEWS         
 // ===================================================
 
+// START WARRANTY       
+// ===================================================
+.warranty__items{
+  display: flex;
+  justify-content: space-between;
+}
+.warranty__item{
+  max-width: 572px;
+  width: 100%;
+  text-align: center;
+  padding: 60px 0;
+  & + .warranty__item{
+    border-left: 1px solid #e8eaf3;
+  }
+  &-img{
+    margin-bottom: 20px;
+  }
+  &-title{
+    font-size: 24px;
+    color: #000;
+    .title-blue{
+      color: $btn;
+    }
+    .title-purple{
+      color: #7347c1;
+    }
+  }
+}
+// END WARRANTY        
+// ===================================================
 
 
 
