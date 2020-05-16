@@ -1076,6 +1076,40 @@
 // END WARRANTY        
 // ===================================================
 
+// START JOIN US        
+// ===================================================
+.join-us{
+  background-image: url(../images/join-us/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+.join-us__inner{
+  text-align: center;
+  color: #fff;
+  &-title{
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 18px;
+  }
+  &-suptitle{
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+  a{
+    color: $btn;
+    background-color: #fff;
+    width: 190px;
+    padding: 12px 0;
+    border-radius: 30px;
+  }
+}
+// END JOIN US    
+// ===================================================
 
 
 @import 'media';
