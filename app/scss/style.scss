@@ -953,6 +953,99 @@
 // END FEEDBACK         
 // ===================================================
 
+// START NEWS        
+// ===================================================
+.news{
+  background-color: #eff1f5;
+  padding: 110px 0 120px;
+}
+.news__items{
+  display: flex;
+  justify-content: space-between;
+}
+.news__item{
+  width: 361px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+  &-img{
+    width: 361px;
+    height: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-wrapper{
+    padding: 20px 30px 0;
+  }
+  &-title{
+    font-weight: 500;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  &-text{
+    margin-bottom: 20px;
+  }
+  &-bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ececec;
+    padding: 10px 30px;
+    height: 60px;
+    align-items: center;
+  }
+  &-date{
+    font-size: 15px;
+    color: #999999;
+    padding-left: 25px;
+    position: relative;
+    border-right: 1px solid #ececec;
+    padding-right: 45px;
+    &::before{
+      content: "\e90c";
+      font-family: 'icomoon';
+      position: absolute;
+      color: $btn;
+      font-size: 15px;
+      left: 0;
+    }
+  }
+  &-comments{
+    font-size: 15px;
+    color: #7e7e7e;
+    padding-left: 25px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 30px;
+    &::before{
+      content: "\e90a";
+      font-family: 'icomoon';
+      position: absolute;
+      color: #7e7e7e;
+      font-size: 15px;
+      left: 0;
+    }
+  }
+  &-views{
+    font-size: 15px;
+    color: #7e7e7e;
+    padding-left: 25px;
+    position: relative;
+    &::before{
+      content: "\e90d";
+      font-family: 'icomoon';
+      position: absolute;
+      color: #7e7e7e;
+      font-size: 15px;
+      left: 0;
+    }
+  }
+}
+// END NEWS         
+// ===================================================
+
+
 
 
 @import 'media';
