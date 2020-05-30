@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-book:before {
+  content: "\e917";
+}
 .icon-bubble:before {
   content: "\e90a";
 }
@@ -34,11 +37,23 @@
 .icon-clock:before {
   content: "\e90c";
 }
+.icon-cog:before {
+  content: "\e918";
+}
+.icon-dice:before {
+  content: "\e919";
+}
 .icon-envelope:before {
   content: "\e916";
 }
+.icon-exit:before {
+  content: "\e91a";
+}
 .icon-eye:before {
   content: "\e90d";
+}
+.icon-home:before {
+  content: "\e91b";
 }
 .icon-leaf:before {
   content: "\e90e";
@@ -63,6 +78,9 @@
 }
 .icon-smile1:before {
   content: "\e915";
+}
+.icon-upload:before {
+  content: "\e91c";
 }
 .icon-users:before {
   content: "\e907";
@@ -103,11 +121,20 @@
 .icon-linkedin:before {
   content: "\f0e1";
 }
+.icon-mail-reply:before {
+  content: "\f112";
+}
+.icon-reply:before {
+  content: "\f112";
+}
 .icon-dribbble:before {
   content: "\f17d";
 }
 .icon-google:before {
   content: "\f1a0";
+}
+.icon-arrow_drop_up:before {
+  content: "\e91d";
 }
 .icon-star:before {
   content: "\e902";
