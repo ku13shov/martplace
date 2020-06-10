@@ -22,6 +22,10 @@ $(function(){
     slidesToShow: 3,
   });
 
+  $('.menu__btn').on('click', function(){
+    $('.menu__list').slideToggle();
+  });
+
   new WOW().init();
 
   var mixer = mixitup('.products__inner');
