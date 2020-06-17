@@ -20,6 +20,28 @@ $(function(){
     infinite: true,
     arrows: true,
     slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 1201,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 731,
+        settings: {
+          dots: true,
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 621,
+        settings: {
+          slidesToShow: 1,
+          dots: true,
+        }
+      },
+    ]
   });
 
   $('.menu__btn').on('click', function(){

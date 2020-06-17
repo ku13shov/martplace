@@ -16,18 +16,32 @@
   .products__btn button {
     padding: 7px 14px;
   }
-}
-@media (max-width: 1045px){
-  .products__item {
-    max-width: 100%;
-    flex-basis: calc(50% - 25px);
+  div.products__item {
+    max-width: 97%;
+    margin-left: 8px;
+  }
+  .feed__items .slick-list {
+    padding: 0;
   }
   .products__item-img {
     max-width: 100%;
   }
-  .products__item-img:hover .products__item-hover {
+  .products__item-img:hover .products__item-hover.off{
     display: none;
   }
+}
+@media (max-width: 1045px){
+  .products__item.mix {
+    max-width: 100%;
+    flex-basis: calc(50% - 25px);
+    .products__item-img {
+      max-width: 100%;
+    }
+    .products__item-img:hover .products__item-hover {
+      display: none;
+    }
+  }
+  
 }
 @media (max-width: 1030px){
   .products-slider__img{
@@ -41,6 +55,9 @@
   }
   .products__btn button {
     width: 126px;
+  }
+  div.products__item {
+    margin-left: 6px;
   }
 }
 @media (max-width: 930px){
@@ -306,6 +323,18 @@
   .products__btn-bot button {
     font-size: 14px;
   }
+  div.products__item {
+    margin-left: 5px;
+  } 
+  .feed {
+    padding: 100px 0;
+  }
+  .feed__items .slick-prev{
+    display: none;
+  }
+  .feed__items .slick-next{
+    display: none;
+  }
 }
 @media (max-width: 710px){
   .header__icon.icon-cart,
@@ -315,7 +344,7 @@
   }
 }
 @media (max-width: 620px){
-  .products__item {
+  .products__item.mix {
     flex-basis: calc(100% - 25px);
   }
   .products__btn button {
@@ -327,6 +356,9 @@
   .products__btn-bot button {
     width: 150px;
     padding: 10px 0;
+  }
+  div.products__item {
+    margin-left: 8px;
   }
 }
 @media (max-width: 600px){
@@ -377,6 +409,9 @@
     padding-bottom: 2px;
     padding-top: 2px;
   }
+  div.products__item {
+    margin-left: 7px;
+  }
 }
 @media (max-width: 460px){
   .header__user-info{
@@ -414,6 +449,12 @@
   }
   .products-slider__info {
     padding: 10px 10px 15px 10px;
+  }
+  .feed__items .slick-prev{
+    display: none !important;
+  }
+  .feed__items .slick-next{
+    display: none !important;
   }
 }
 @media (max-width: 415px){
@@ -456,6 +497,9 @@
   }
   .products__btn button {
     width: 88px;
+  }
+  div.products__item {
+    margin-left: 5px;
   }
 }
 @media (max-width: 353px){
