@@ -235,6 +235,16 @@
     margin-left: 0;
     margin-top: 25px;
   }
+  .warranty__items {
+    flex-wrap: wrap;
+  }
+  .warranty__item {
+    max-width: 100%;
+  }
+  .warranty__item+.warranty__item {
+    border-left: none;
+    border-top: 1px solid #e8eaf3;
+  }
 }
 @media (max-width: 760px){
   .shop__items {
@@ -543,6 +553,28 @@
   .news__item-comments,
   .news__item-views {
     font-size: 14px;
+  }
+  .warranty__item-title {
+    font-size: 22px;
+    color: #000;
+  }
+  .join-us {
+    min-height: 300px;
+  }
+  .join-us__inner-title {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+  .join-us__inner-suptitle {
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 18px;
+  }
+  .join-us__inner a {
+    width: 170px;
+    font-size: 14px;
+    padding: 7px 0;
   }
 }
 @media (max-width: 710px){
