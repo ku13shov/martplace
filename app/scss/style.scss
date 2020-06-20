@@ -1315,6 +1315,7 @@
 .shop__items{
   display: flex;
   text-align: center;
+  overflow: hidden;
 }
 .shop__item{
   max-width: 960px;
@@ -1367,6 +1368,7 @@
 // ===================================================
 .feedback{
   padding: 110px 0 120px;
+  overflow: hidden;
 }
 .feedback__items{
   display: flex;
@@ -1425,6 +1427,7 @@
 // START NEWS        
 // ===================================================
 .news{
+  overflow: hidden;
   background-color: #eff1f5;
   padding: 110px 0 120px;
 }
@@ -1518,6 +1521,7 @@
 // START WARRANTY       
 // ===================================================
 .warranty__items{
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
 }
@@ -1584,6 +1588,7 @@
 // START FOOTER  
 // ===================================================
 .footer__top{
+  overflow: hidden;
   background-color: #262b30;
   padding: 115px 0;
 }
