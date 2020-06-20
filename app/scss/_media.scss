@@ -119,6 +119,32 @@
   .news__item-img {
     max-width: 100%;
   }
+  .footer__top-inner {
+    flex-wrap: wrap;
+  }
+  .footer__contacts {
+    width: 50%;
+  }
+  .footer__company, .footer__help {
+    width: 25%;
+    order: 2;
+  }
+  .footer__help {
+    order: 1;
+    margin-bottom: 40px;
+  }
+  .footer__newsletter {
+    max-width: 50%;
+    order: 1;
+  }
+  .footer__newsletter-form{
+    max-width: 371px;
+  }
+  .footer__contacts-phone, 
+  .footer__contacts-mail, 
+  .footer__contacts-map{
+    display: block;
+  }
 }
 @media (max-width: 930px){
   .products-slider__info{
@@ -244,6 +270,15 @@
   .warranty__item+.warranty__item {
     border-left: none;
     border-top: 1px solid #e8eaf3;
+  }
+  .footer__contacts {
+    width: 70%;
+  }
+  .footer__company, .footer__help {
+    width: 20%;
+  }
+  .footer__newsletter {
+    max-width: 70%;
   }
 }
 @media (max-width: 760px){
@@ -576,6 +611,66 @@
     font-size: 14px;
     padding: 7px 0;
   }
+  .footer__top {
+    padding: 90px 0;
+  }
+  .footer__contacts-logo {
+    margin-bottom: 10px;
+  }
+  .footer__contacts-text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .footer__contacts-phone, 
+  .footer__contacts-mail, 
+  .footer__contacts-map {
+    font-size: 14px;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .footer__title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .footer__company a, 
+  .footer__help a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .footer__newsletter-text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  .footer__newsletter-form {
+    max-width: 300px;
+  }
+  .footer__newsletter form {
+    margin-bottom: 30px;
+  }
+  .footer__newsletter form input {
+    border-radius: 18px;
+    padding-left: 13px;
+    padding-right: 80px;
+    width: 270px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .footer__newsletter form button {
+    height: 40px;
+    border-radius: 18px;
+    width: 70px;
+    font-size: 14px;
+    right: 30px;
+  }
+  .footer__bottom {
+    height: 80px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+  }
 }
 @media (max-width: 710px){
   .header__icon.icon-cart,
@@ -634,6 +729,18 @@
   }
   .progress__item {
     padding: 20px 6px 20px;
+  }
+  .footer__contacts {
+    width: 100%;
+  }
+  .footer__company, 
+  .footer__help {
+    order: 0;
+    width: 48%;
+    margin-bottom: 0;
+  }
+  .footer__newsletter {
+    max-width: 100%;
   }
 }
 @media (max-width: 550px){
